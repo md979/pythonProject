@@ -1,0 +1,5 @@
+name=input("enter name:")
+print(name)
+print("len(name)",len(name))
+print("name[2:6]",name[2:6])
+print(name*3)

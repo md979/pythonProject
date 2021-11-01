@@ -1,0 +1,2 @@
+COMPUTERS=int(input("COMPUTERS: "))
+
