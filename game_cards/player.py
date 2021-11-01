@@ -1,9 +1,10 @@
+
 from game_cards.deckofcards import DeckofCards
 from random import *
 
 class Player:
 
-   def __init__(self, name,numofcards):
+   def __init__(self,name,numofcards=26):
 
        self.cards = []
        self.name = name
@@ -21,10 +22,13 @@ class Player:
            self.cards.append(deck_of_cards.del_one())
 
    def get_card(self):
-       return random.choice(self.cards)
+
+       return choice(self.cards)
 
    def add_card(self, card):
        self.cards.append(card)
+
+
 
 
 
